@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('./wp1836700-aesthetic-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(155, 161, 162, 0.2);
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+
+}
+
+.edit {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.ins {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a {
+    margin: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#home .content {
+    width: 100%;
+}
+
+#home .content h1 {
+    font-size: 60px;
+    margin: 10px 0;
+    text-align: center;
+    background: linear-gradient(90deg, #141E30, #243B55, #3B4371, #181818, #2C5364, #0F2027);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#home .content p {
+    width: 50%;
+    margin: auto;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.content {
+    height: 100%;
+    width: 80%;
+    padding: 15% 0;
+}
+
+.content h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.content p {
+    font-size: 24px;
+    line-height: 50px;
+}
